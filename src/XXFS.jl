@@ -1,5 +1,7 @@
 module XXFS
 
+export xxh_hash,xxh_fname
+
 using XXhash
 
 root_dir = haskey(ENV,"XXFS_HOME") ? ENV["XXFS_HOME"] : "."
